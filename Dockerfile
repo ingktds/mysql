@@ -6,4 +6,4 @@ ADD mysql57-community-release-el7-8.noarch.rpm /usr/local/src/mysql57-community-
 RUN /usr/local/bin/setup.sh
 
 EXPOSE 3306
-CMD [ '/usr/bin/supervisord', '-n' ]
+CMD [ "/sbin/init" ]
